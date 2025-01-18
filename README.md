@@ -32,7 +32,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
@@ -60,55 +60,55 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ### Features of the University Library Management System Project
 
-👉 **Open-source Authentication**: Personalized onboarding flow with email notifications.  
+👉 **Open-source Authentication**: Personalized onboarding flow with email notifications.
 
-👉 **Home Page**: Highlighted books and newly added books with 3D effects.  
+👉 **Home Page**: Highlighted books and newly added books with 3D effects.
 
-👉 **Library Page**: Advanced filtering, search, and pagination for book discovery.  
+👉 **Library Page**: Advanced filtering, search, and pagination for book discovery.
 
-👉 **Book Detail Pages**: Availability tracking, book summaries, videos, and suggestions for similar books.  
+👉 **Book Detail Pages**: Availability tracking, book summaries, videos, and suggestions for similar books.
 
-👉 **Profile Page**: Manage accounts, track borrowed books, and download receipts.  
+👉 **Profile Page**: Manage accounts, track borrowed books, and download receipts.
 
-👉 **Onboarding Workflows**: Automated welcome emails when users sign up, with follow-ups based on inactivity or activity dates.  
+👉 **Onboarding Workflows**: Automated welcome emails when users sign up, with follow-ups based on inactivity or activity dates.
 
-👉 **Borrow Book Reminder**: Customized email notifications sent before, on, and after the due date, reminding users to return books or avoid charges. 
+👉 **Borrow Book Reminder**: Customized email notifications sent before, on, and after the due date, reminding users to return books or avoid charges.
 
-👉 **Borrow Book Receipt**: Automatically generates a customized PDF receipt when a book is successfully borrowed.  
+👉 **Borrow Book Receipt**: Automatically generates a customized PDF receipt when a book is successfully borrowed.
 
-👉 **Analytics Dashboard**: Statistics, new users, books, borrow requests, and more.  
+👉 **Analytics Dashboard**: Statistics, new users, books, borrow requests, and more.
 
-👉 **All Users Page**: View and manage users, including approving or revoking access.  
+👉 **All Users Page**: View and manage users, including approving or revoking access.
 
-👉 **Account Requests Page**: Admin approval for account requests, with email notifications for user verification.  
+👉 **Account Requests Page**: Admin approval for account requests, with email notifications for user verification.
 
-👉 **All Books Page**: List and manage all library books with advanced search, pagination, and filters. 
+👉 **All Books Page**: List and manage all library books with advanced search, pagination, and filters.
 
-👉 **Book Management Forms**: Add new books and edit existing entries.  
+👉 **Book Management Forms**: Add new books and edit existing entries.
 
-👉 **Book Details Page**: Detailed book information for administrators.  
+👉 **Book Details Page**: Detailed book information for administrators.
 
-👉 **Borrow Records Page**: Complete borrow history with pagination and search.  
+👉 **Borrow Records Page**: Complete borrow history with pagination and search.
 
-👉 **Role Management**: Change user roles to invite more admins, with email notifications sent upon role updates. 
+👉 **Role Management**: Change user roles to invite more admins, with email notifications sent upon role updates.
 
-👉 **Advanced Functionalities**: Caching, rate-limiting, DDoS protection, and custom notifications.  
+👉 **Advanced Functionalities**: Caching, rate-limiting, DDoS protection, and custom notifications.
 
-👉 **Database Management**: Postgres with Neon for scalable and collaborative database handling.  
+👉 **Database Management**: Postgres with Neon for scalable and collaborative database handling.
 
-👉 **Real-time Media Processing**: ImageKit for image and video optimization and transformations. 
+👉 **Real-time Media Processing**: ImageKit for image and video optimization and transformations.
 
-👉 **Efficient Caching**: Upstash Redis for caching, workflows, and triggers.  
+👉 **Efficient Caching**: Upstash Redis for caching, workflows, and triggers.
 
-👉 **Database ORM**: Drizzle ORM for simplified and efficient database interactions.  
+👉 **Database ORM**: Drizzle ORM for simplified and efficient database interactions.
 
-👉 **Modern UI/UX**: Built with TailwindCSS, ShadCN, and other cutting-edge tools.  
+👉 **Modern UI/UX**: Built with TailwindCSS, ShadCN, and other cutting-edge tools.
 
-👉 **Technology Stack**: Next.js with TypeScript for scalable development, and NextAuth for robust authentication.  
+👉 **Technology Stack**: Next.js with TypeScript for scalable development, and NextAuth for robust authentication.
 
-👉 **Seamless Email Handling**: Resend for automated email communications, including notifications and updates.  
+👉 **Seamless Email Handling**: Resend for automated email communications, including notifications and updates.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -154,6 +154,7 @@ DATABASE_URL=
 UPSTASH_REDIS_URL=
 UPSTASH_REDIS_TOKEN=
 
+# run: npx auh secret
 AUTH_SECRET=
 
 # Required for workflow
@@ -164,7 +165,7 @@ QSTASH_TOKEN=
 RESEND_TOKEN=
 ```
 
-Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on the [ImageKit](https://bit.ly/49zmXkt), [NeonDB](https://fyi.neon.tech/1jsm), [Upstash](https://upstash.com/?utm_source=jsmastery1), and [Resend](https://resend.com/). 
+Replace the placeholder values with your actual ImageKit, NeonDB, Upstash, and Resend credentials. You can obtain these credentials by signing up on the [ImageKit](https://bit.ly/49zmXkt), [NeonDB](https://fyi.neon.tech/1jsm), [Upstash](https://upstash.com/?utm_source=jsmastery1), and [Resend](https://resend.com/).
 
 **Running the Project**
 
@@ -1286,12 +1287,11 @@ seed();
 
 </details>
 
-
 ## <a name="links">🔗 Assets</a>
 
 - Assets used in the project can be found [here](https://drive.google.com/file/d/1Q-Wx1Y5W-0tsHCyWLXQ1oLW8x8fnROy_/view?usp=sharing)
 - [Watch how to Integrate EmailJS](https://youtu.be/kt0FrkQgw8w?feature=shared&t=13792) in Your Website.
-- [Source Code for Integrating EmailJS](https://github.com/adrianhajdin/threejs-portfolio/blob/main/src/sections/Contact.jsx) in any of your codebases. 
+- [Source Code for Integrating EmailJS](https://github.com/adrianhajdin/threejs-portfolio/blob/main/src/sections/Contact.jsx) in any of your codebases.
 
 ## <a name="more">🚀 More</a>
 
